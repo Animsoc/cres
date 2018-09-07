@@ -11,13 +11,11 @@ CREATE PROCEDURE dbo.up_app_wk_Sports (@Date varchar(10))
 AS
 BEGIN
 SET NOCOUNT ON
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
 --   Version 1
 DECLARE @iError         int
 ,       @iRowcount      int
 ,       @sProgName      varchar(80)
-,       @iStagingDateID int 
-,       @bIsHistoricalRun bit
 ,       @sMessage		varchar(50)
  
 DECLARE @ErrorMessage   NVARCHAR(4000)
@@ -95,13 +93,11 @@ CREATE PROCEDURE dbo.up_app_wk_Teams (@Date varchar(10))
 AS
 BEGIN
 SET NOCOUNT ON
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
 --   Version 1
 DECLARE @iError         int
 ,       @iRowcount      int
 ,       @sProgName      varchar(80)
-,       @iStagingDateID int 
-,       @bIsHistoricalRun bit
 ,       @sMessage		varchar(50)
  
 DECLARE @ErrorMessage   NVARCHAR(4000)
@@ -178,13 +174,11 @@ CREATE PROCEDURE dbo.up_app_wk_Leagues (@Date varchar(10))
 AS
 BEGIN
 SET NOCOUNT ON
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
 --   Version 1
 DECLARE @iError         int
 ,       @iRowcount      int
 ,       @sProgName      varchar(80)
-,       @iStagingDateID int 
-,       @bIsHistoricalRun bit
 ,       @sMessage		varchar(50)
  
 DECLARE @ErrorMessage   NVARCHAR(4000)
@@ -260,13 +254,10 @@ CREATE PROCEDURE dbo.up_app_wk_Markets (@Date varchar(10))
 AS
 BEGIN
 SET NOCOUNT ON
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
 --   Version 1
 DECLARE @iError         int
 ,       @iRowcount      int
 ,       @sProgName      varchar(80)
-,       @iStagingDateID int 
-,       @bIsHistoricalRun bit
 ,       @sMessage		varchar(50)
  
 DECLARE @ErrorMessage   NVARCHAR(4000)
@@ -345,13 +336,10 @@ CREATE PROCEDURE dbo.up_app_wk_Matches (@Date varchar(10))
 AS
 BEGIN
 SET NOCOUNT ON
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
 --   Version 1
 DECLARE @iError         int
 ,       @iRowcount      int
 ,       @sProgName      varchar(80)
-,       @iStagingDateID int 
-,       @bIsHistoricalRun bit
 ,       @sMessage		varchar(50)
  
 DECLARE @ErrorMessage   NVARCHAR(4000)
@@ -432,13 +420,10 @@ CREATE PROCEDURE dbo.up_app_wk_Offers (@Date varchar(10))
 AS
 BEGIN
 SET NOCOUNT ON
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
 --   Version 1
 DECLARE @iError         int
 ,       @iRowcount      int
 ,       @sProgName      varchar(80)
-,       @iStagingDateID int 
-,       @bIsHistoricalRun bit
 ,       @sMessage		varchar(50)
  
 DECLARE @ErrorMessage   NVARCHAR(4000)
@@ -548,7 +533,6 @@ CREATE PROCEDURE dbo.up_app_Dim_Sports_du
 AS
 BEGIN
 SET NOCOUNT ON
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
 
 DECLARE @iError         int
 ,       @iRowcount      int
@@ -643,12 +627,10 @@ CREATE PROCEDURE dbo.up_app_dim_Leagues_du
 AS
 BEGIN
 SET NOCOUNT ON
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
  
 DECLARE @iError         int
 ,       @iRowcount      int
 ,       @sProgName      varchar(80)
-,       @iStagingDateID int 
 ,       @sMessage		varchar(50)
  
 DECLARE @ErrorMessage   NVARCHAR(4000)
@@ -739,7 +721,6 @@ CREATE PROCEDURE dbo.up_app_dim_Markets_du
 AS
 BEGIN
 SET NOCOUNT ON
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
  
 DECLARE @iError         int
 ,       @iRowcount      int
@@ -842,7 +823,6 @@ CREATE PROCEDURE dbo.up_app_dim_Matches_du
 AS
 BEGIN
 SET NOCOUNT ON
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
  
 DECLARE @iError         int
 ,       @iRowcount      int
@@ -941,9 +921,8 @@ CREATE PROCEDURE dbo.up_app_Dim_Teams_du
 AS
 BEGIN
 SET NOCOUNT ON
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
- 
-DECLARE @iError         int
+
+ DECLARE @iError         int
 ,       @iRowcount      int
 ,       @sProgName      varchar(80)
 ,       @sMessage		varchar(50)
@@ -1025,7 +1004,6 @@ CREATE PROCEDURE dbo.up_app_Fact_Offers_du
 AS
 BEGIN
 SET NOCOUNT ON
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
  
 DECLARE @iError         int
 ,       @iRowcount      int
