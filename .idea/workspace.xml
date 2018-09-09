@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3b4619f-45e0-4bce-9715-500737fa1b8f" name="Default Changelist" comment="First commit" />
+    <list default="true" id="b3b4619f-45e0-4bce-9715-500737fa1b8f" name="Default Changelist" comment="Delete dir">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentSolution/ReadMe.docx" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentSolution/ReadMe.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentSolution/ToDoList.docx" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentSolution/ToDoList.docx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,44 +24,90 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="PNG" value="4" />
-          <entry key="sql" value="10" />
+          <entry key="snippet" value="1" />
+          <entry key="sql" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="4" />
-          <entry key="SQL" value="10" />
+          <entry key="SQL" value="13" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="snippet" value="41" />
           <entry key="txt" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="115" />
+          <entry key="Scratch" value="41" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/ETL_Script.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/All_Procs - Copy.sql">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/All_Schema - Copy.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/scCodeGenerator_All_Procs.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="90" column="1" lean-forward="true" selection-end-line="1157" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/remotes/origin/master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
-    <option name="y" value="14" />
-    <option name="width" value="1281" />
-    <option name="height" value="728" />
+    <option name="x" value="138" />
+    <option name="y" value="11" />
+    <option name="width" value="1219" />
+    <option name="height" value="621" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -82,6 +132,12 @@
               <item name="gitcres" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="AssignmentSolution" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="gitcres" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="gitcres" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="AssignmentSolution" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ETL" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -89,7 +145,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536320700415" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536464931328" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -222,7 +278,35 @@
       <option name="project" value="LOCAL" />
       <updated>1536298690825</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Delete dir">
+      <created>1536322147540</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1536322147540</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Delete dir">
+      <created>1536326688204</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1536326688204</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Delete dir">
+      <created>1536464389271</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1536464389271</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Delete dir">
+      <created>1536464408904</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1536464408904</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -235,10 +319,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="14" width="1281" height="728" extended-state="0" />
+    <frame x="138" y="11" width="1219" height="621" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4924623" visible="true" weight="0.25389025" />
-      <window_info id="Structure" order="1" sideWeight="0.50753766" side_tool="true" visible="true" weight="0.25389025" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49235475" visible="true" weight="0.26747197" />
+      <window_info id="Structure" order="1" sideWeight="0.50764525" side_tool="true" visible="true" weight="0.26747197" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -251,9 +336,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4995905" weight="0.32996634" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995905" weight="0.32996634" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5012285" side_tool="true" visible="true" weight="0.32996634" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4987715" visible="true" weight="0.32996634" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49870577" visible="true" weight="0.32854208" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5012942" side_tool="true" visible="true" weight="0.32854208" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49870577" weight="0.40246406" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -307,23 +392,14 @@
     <entry file="file://$PROJECT_DIR$/test/Extract.sql" />
     <entry file="file://$PROJECT_DIR$/AssignmentSolution/DWSchema/DWSchema.PNG" />
     <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/Extract.sql" />
-    <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/scCodeGenerator-wk-Tables_Procs.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/Extract&amp;Transform_Script.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssignmentSolution/Database Schema/DWSchema.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/scCodeGenerator-wk-Tables_Procs.sql" />
+    <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/Extract&amp;Transform_Script.sql" />
+    <entry file="file://$PROJECT_DIR$/AssignmentSolution/Database Schema/DWSchema.PNG" />
     <entry file="file://$PROJECT_DIR$/AssignmentSolution/Database Schema/DWSchema1.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AssignmentSolution/Database Schema/Unit_Testing.PNG">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/scCodeGenerator_All_Procs.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/scCodeGenerator_All_Schema.sql">
       <provider selected="true" editor-type-id="text-editor" />
@@ -332,7 +408,31 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/ETL_Script.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/All_Procs - Copy.sql">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/scCodeGenerator_All_Procs.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="90" column="1" lean-forward="true" selection-end-line="1157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssignmentSolution/ETL/All_Schema - Copy.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
